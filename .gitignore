@@ -1,4 +1,12 @@
-
+node_modules/
+.env
+.env.local
+/.idea
+/.vscode
+/.DS_Store
+/.playwright
+coverage/
+test-results/
 # Playwright
 node_modules/
 /test-results/
