@@ -18,7 +18,7 @@ test.describe('AI Vision', () => {
     // Verify the first product image has a source and the product has a name
     const imgSrc = await firstProductImage.getAttribute('src');
     expect(imgSrc).toBeTruthy();
-    // Get the url for image
+    // Get the url for image 
     const url = new URL(imgSrc!, page.url()).toString();
     console.log(url);
 
